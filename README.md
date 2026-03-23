@@ -148,6 +148,14 @@ This project uses React loaded directly from a CDN rather than a build tool setu
 - Provide a clear description of your changes
 - Reference any related issues (e.g., "Closes #2")
 
+## Contributors
+
+Thanks to these amazing people who contributed ❤️
+
+<a href="https://github.com/Rohan-Shridhar/gridcraft/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Rohan-Shridhar/gridcraft" />
+</a>
+
 ## Guidelines
 
 - Keep pull requests focused on a single feature or fix

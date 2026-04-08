@@ -15,6 +15,7 @@ const App = () => {
   const [future, setFuture] = useState([]);
   const [selectedColor, setSelectedColor] = useState('#e63946');
   const [isEraser, setIsEraser] = useState(false);
+  const [showGrid, setShowGrid] = useState(true);
   const [toast, setToast] = useState(null);
 
   const fileInputRef = useRef(null);
@@ -155,7 +156,7 @@ const App = () => {
 
       {toast && <div className={`toast ${toast.type}`}>{toast.msg}</div>}
 
-      <Grid cells={cells} gridSize={gridSize} paintCell={paintCell} />
+      <Grid cells={cells} gridSize={gridSize} showGrid={showGrid} paintCell={paintCell} />
 
       <div className="grid-size-selector">
         <span className="grid-size-label">Grid:</span>
@@ -168,6 +169,13 @@ const App = () => {
             {size}×{size}
           </button>
         ))}
+        <button
+          className={`grid-size-btn${showGrid ? ' grid-size-btn--active' : ''}`}
+          onClick={() => setShowGrid(s => !s)}
+          title="Toggle grid lines"
+        >
+          <i className="fa-solid fa-border-all"></i>
+        </button>
       </div>
 
       <Tools

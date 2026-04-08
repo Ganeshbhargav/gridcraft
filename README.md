@@ -49,6 +49,7 @@ Experience GridCraft here: **[GridCraft Live](https://rohan-shridhar.github.io/g
 ```txt
 gridcraft/
 ├── src/                    # Source files (transpiled in-browser by Babel)
+│   ├──images/              # Images used for background, icon etc..   
 │   ├── App.jsx             # Root component - state management & download logic
 │   ├── Footer.jsx          # Footer component with links/info
 │   ├── Grid.jsx            # Grid rendering and cell logic

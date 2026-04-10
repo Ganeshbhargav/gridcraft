@@ -3,7 +3,7 @@
   --text-color: #e5e5e5;
   --header-bg-color: #1a1a1a;
   --header-text-color: #e5e5e5;
-  --header-title-size: 10vh;
+  --header-title-size: 20vh;
   --header-subtitle-size: 2vh;
   --menu-bg-color: #1a1a1a;
   --menu-text-color: #e5e5e5;
@@ -25,7 +25,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-color: var(--bg-color);
-  background-image: url("src/images/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,12 +37,11 @@ body {
   width: 100%;
 }
 header {
-  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 20vh;
   width: 100vw;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -62,8 +60,18 @@ header {
 .header-cont h1 {
   font-size: var(--header-title-size);
 }
-.header-cont p {
-  font-size: var(--header-subtitle-size);
+.lines {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+}
+.line {
+  box-shadow: 0 0 10px var(--text-color);
+  justify-self: center;
+  width: 1px;
+  height: 60vh;
+  background-color: var(--text-color);
 }
 .menu-cont {
   display: flex;

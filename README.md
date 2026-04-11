@@ -23,27 +23,6 @@ Built with React, GridCraft demonstrates how modern component-based architecture
 
 Experience GridCraft here: **[GridCraft Live](https://rohan-shridhar.github.io/gridcraft/)**
 
-## Getting Started 🚀
-
-**No build tools required!** This project uses CDN-loaded React with Babel Standalone, so you can start coding immediately.
-
-
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/Rohan-Shridhar/gridcraft.git
-
-2. **Navigate to the project folder**
-
-    ```bash
-    cd gridcraft
-
-3. **Start local server**
-    ```bash
-    # Serves on localhost:8000
-    python -m http.server
-
-4. **Open localhost:8000 in your browser and start exploring! Edit the .jsx files in the src/ folder and refresh your browser to see changes instantly.**
-
 
 ## Repository Structure 📁
 ```txt
@@ -85,57 +64,11 @@ gridcraft/
 - **Event Handling** - Mouse event listeners for right-click drawing
 - **Props Communication** - Download function passed from App to Menu (`<Menu downloadImage={downloadImage} />`)
 
-## Built With 🛠️
-
-- **React 18** - UI library (loaded via CDN)
-- **Babel Standalone** - In-browser JSX transpilation
-- **html2canvas** - DOM-to-image capture library
-- **JavaScript (ES6+)** - Core application logic
-- **CSS3** - Grid layout, styling, and export-specific classes
-- **HTML5** - Structure and download API
-- **GitHub Pages** - Hosting and deployment
 
 
 ## How to Contribute 
 
-1. **Fork the repository**
-   - Click the "Fork" button at the top right of the repository page
-
-2. **Clone your fork**
-   ```bash
-   git clone https://github.com/your-username/gridcraft.git
-   cd gridcraft
-  
-3. **Create a feature branch
-
-  ```bash
-  git checkout -b feature/YourFeatureName
-  ```
-
-4. Make your changes
-
-- Edit files in your code editor
-- Test your changes by opening index.html in your browser
-
-5. Commit your changes
-
-  ```bash
-  git add .
-  git commit -m "Add: brief description of your changes"
-  ```
-
-6. Push to your fork
-
-  ```bash
-  git push origin feature/YourFeatureName
-  ```
-
-7. Open a Pull Request
-
-- Go to your fork on GitHub
-- Click "Compare & pull request"
-- Provide a clear description of your changes
-- Reference any related issues (e.g., "Closes #2")
+Checkout [CONTRIBUTING.md](CONTRIBUTING.md) for instructions.
 
 ## Contributors
 

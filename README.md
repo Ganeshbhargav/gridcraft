@@ -42,10 +42,13 @@ gridcraft/
 ├── LICENSE                 # License file
 └── README.md               # Documentation
 ````
-<p text-allign="center">
-
-  <img width="700" src="https://github.com/Rohan-Shridhar/gridcraft/blob/main/src/images/project-structure.png">
-
+<p align="center">
+  <img 
+    width="700" 
+    src="https://github.com/Rohan-Shridhar/gridcraft/blob/main/src/images/project-structure.png"
+    alt="Project Structure"
+    style="border:1px solid #d0d7de; border-radius:8px; padding:6px; background-color:white;"
+  />
 </p>
 ## Technical Implementation 🔧
 
